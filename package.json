@@ -1,0 +1,13 @@
+{
+  "name": "ai-resume-job-matcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Resume Analyzer & Job Matcher Full Stack Application",
+  "scripts": {
+    "start": "backend\\venv\\Scripts\\python start.py",
+    "dev": "backend\\venv\\Scripts\\python start.py",
+    "init-db": "backend\\venv\\Scripts\\python backend\\init_db.py --seed",
+    "test": "backend\\venv\\Scripts\\python -m unittest discover -s backend\\tests -p \"test_*.py\"",
+    "build": "cd frontend && npm run build"
+  }
+}
